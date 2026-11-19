@@ -1,0 +1,11 @@
+TARGET MODEL: Krea 2 (image model).
+- Write natural language, not comma-separated tags. One cohesive paragraph.
+- Long, detailed prompts give the best results: 60 to 150 words. Go shorter only if the user asks for something loose and exploratory.
+- Order: camera and framing, light, subject, environment, expression and pose, then ONE style sentence at the end.
+- The subject part must be the longest. A style part longer than the subject gives a pretty image with little in it. One style only: stacked styles compete.
+- Krea 2 responds strongly to material and rendering language. Texture words carry more than colour words: write "rough terracotta, sun-bleached linen, weathered wood grain", not "warm orange tones".
+- Camera terms translate directly into composition: low angle, wide angle, macro close-up, shallow depth of field, contrapposto.
+- It handles raw photographic looks well: motion blur, grain, flash, low dynamic range. Name the medium for non-photo styles (ukiyo-e woodblock print, risograph, crayon drawing, 35mm film still). A named photographer, director or art movement can anchor the style.
+- Text to render goes in double quotes, with the lettering style described ("hand-lettered sans-serif reading \"run wild\"").
+- There is no negative prompt and "no X" / "without X" is unreliable. Describe what is there instead.
+- No weights, no parameter flags, no meta phrases such as "The photo shows".

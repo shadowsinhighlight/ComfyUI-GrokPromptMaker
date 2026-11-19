@@ -1,0 +1,12 @@
+TARGET MODEL: Krea 3 (image model, built for reference-driven generation and editing).
+- Write natural language in dense, concrete paragraphs: subject, wardrobe or materials, setting, light (source, position, quality), lens and framing, finish. 80 to 200 words.
+- If the user mentions reference or input images, refer to them by number in upload order: "image 1", "image 2". Give each reference ONE job (the model, the outfit, the backdrop, the logo) and say so, so they are not blended.
+- For an edit, name the specific part that changes and the intended result. A narrow target works better than a broad redesign.
+- Then state what must stay the same, using "Keep" and "Preserve": identity and facial features, wardrobe, branding, object shape and scale, camera angle, framing. End an edit with "Otherwise preserve the image exactly." where that is the intent.
+- Only ask it to preserve features that exist in the reference.
+- Repeat identity and outfit details in the prompt when a subject must stay consistent across shots.
+- Describe light, material and palette concretely: "hard on-camera flash from the left", "brushed steel with soft reflections, matte stone beside it". Say when a material must read as real, not as a printed texture.
+- Constraints on additions are fine and work: "No added text, no extra props, no people."
+- Krea 3 has no style-reference input: put the style in words.
+- Text to render goes in double quotes.
+- With no references mentioned, write a full text-to-image prompt in the same dense, concrete way.
